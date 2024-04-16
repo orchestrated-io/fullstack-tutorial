@@ -43,10 +43,15 @@
     "glob-parent": "6.0.2",
     "nodemon": "3.1.0",
     "npm-watch": "^0.11.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "postcss": "8.4.38"
   },
   "overrides": {
     "axios": "1.6.8",
-    "nodemon": "3.1.0"
+    "nodemon": "3.1.0",
+    "postcss": "8.4.38",
+    "react-scripts": {
+      "@svgr/webpack": "8.1.0"
+    }
   }
 }
